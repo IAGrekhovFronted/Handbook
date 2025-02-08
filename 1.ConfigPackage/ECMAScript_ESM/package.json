@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node ./dist/import.js"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^22.13.1"
+    }
+}

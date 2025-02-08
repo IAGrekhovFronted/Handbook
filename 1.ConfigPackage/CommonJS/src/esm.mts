@@ -1,0 +1,1 @@
+export const esmMessage = 'Экспорт ESM-модуля в CJS-модуль';

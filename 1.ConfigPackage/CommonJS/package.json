@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node ./dist/require.js"
+    },
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/node": "^22.13.1"
+    }
+}
