@@ -37,6 +37,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var greeting = require("./exports");
+var dotenv = require('dotenv');
+// dotenv.config();
+var dbToken = process.env.TOKEN;
 (function () { return __awaiter(void 0, void 0, void 0, function () {
     var esmMessage;
     return __generator(this, function (_a) {
@@ -49,4 +52,5 @@ var greeting = require("./exports");
         }
     });
 }); })();
+console.log('dbToken', dbToken);
 console.log('greeting', greeting);
