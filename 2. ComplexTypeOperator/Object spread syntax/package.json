@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node ./dist/spread.js"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^22.13.1"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7"
+    }
+}
