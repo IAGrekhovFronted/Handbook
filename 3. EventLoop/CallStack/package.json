@@ -1,9 +1,0 @@
-{
-    "scripts": {
-        "start1": "tsx ./src/example1.ts",
-        "start2": "tsx ./src/example2.ts"
-    },
-    "dependencies": {
-        "tsx": "^4.19.2"
-    }
-}
