@@ -1,6 +1,8 @@
 {
     "scripts": {
-        "start": "tsx ./src/executable.ts"
+        "start": "tsx ./src/executable.ts",
+        "start:prof": "tsx --prof ./src/executable.ts",
+        "start:trace": "tsx --trace ./src/executable.ts"
     },
     "dependencies": {
         "tsx": "^4.19.2"

@@ -1,8 +1,21 @@
+const memory1 = process.memoryUsage()
+console.log('=================');
+console.log(memory1)
 console.log('Start program');
+
+console.log('=================');
+const memory2 = process.memoryUsage()
+console.log(memory2)
+
+const x = 10;
+console.log('=================');
+const memory3 = process.memoryUsage()
+console.log(memory3)
 
 setTimeout(
     () => console.log('MacroTask #1'), 0
 )
+
 
 queueMicrotask(
     () => console.log('Microtask #1')
@@ -17,6 +30,12 @@ queueMicrotask(
 )
 
 console.log('Continuation program');
+console.log('=================');
+const memory4 = process.memoryUsage()
+console.log(memory4)
+const responce = new Promise(resolve => resolve(50)).then(value => console.log('Promice - ', value))
+
+
 
 /**
  * 1. Функция console.log('Start program') помещается в Call Stack => выполняется => удаляется из Call Stack;

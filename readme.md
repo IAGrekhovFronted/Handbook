@@ -17,3 +17,4 @@
 1. Стандарт HTML5 - https://html.spec.whatwg.org/
 2. Стандарт ECMAScript - https://262.ecma-international.org/
 3. Движок V8 - https://v8.dev/
+4. Тестовая среда для Abstract syntax three - https://astexplorer.net/

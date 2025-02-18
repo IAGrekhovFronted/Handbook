@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    console.log('Start program');
+
+    setTimeout(
+        () => console.log('MacroTask #1'), 0
+    )
+
+
+    queueMicrotask(
+        () => console.log('Microtask #1')
+    )
+
+    setTimeout(
+        () => console.log('MacroTask #2'), 0
+    )
+
+    queueMicrotask(
+        () => console.log('Microtask #2')
+    )
+
+    console.log('Continuation program');
+
+    const responce = new Promise(resolve => resolve(50)).then(value => console.log('Promice - ', value))
+</script>
+
+</html>
