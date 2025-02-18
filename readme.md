@@ -18,3 +18,5 @@
 2. Стандарт ECMAScript - https://262.ecma-international.org/
 3. Движок V8 - https://v8.dev/
 4. Тестовая среда для Abstract syntax three - https://astexplorer.net/
+5. Документация библиотеки libuv (Node.js) - https://docs.libuv.org/
+6. Документация Node.js - https://nodejs.org/
