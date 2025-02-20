@@ -1,8 +1,9 @@
 {
-    "scripts": {
-        "start": "tsx ./src/executable.ts"
-    },
-    "dependencies": {
-        "tsx": "^4.19.2"
-    }
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/executable.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
 }
