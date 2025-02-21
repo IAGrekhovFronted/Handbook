@@ -9,8 +9,40 @@
    - использование переменных окружения в CJS-модулях и ESM-модулях.
 
 2. Операторы для комплексных типов
+
    - sread operator;
    - rest operator.
+
+3. Event Loop:
+
+   - общие принципы работы среды исполнения;
+   - работа движка V8;
+   - работа Event Loop: call stack, macrotask queue, microtask queue.
+
+4. Рекурсивные вызовы
+
+5. Промисы:
+
+   - структура работы промиса;
+   - схема работы промисов в контексте Event Loop;
+   - использование функкци обработки массивов промисов, в т.ч. Promise.all(), Promise.any() и т.д.
+
+6. Принципы программирования:
+
+   - DRY (don't repeat yourself);
+   - KISS (keep it simple stupid);
+   - YAGNI (your are't gonna need it);
+   - SOLID.
+     single responsibility principe;
+     open-closed;
+     liskov substitution;
+     interface segregation principle;
+     dependency inversion.
+
+7. Паттерны программирования
+   - Singleton;
+   - Factory;
+   - Abstract Factory.
 
 **Links**:
 
