@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/strategy.ts",
+    "start:dev": "tsx ./src/without-strategy.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
+}
