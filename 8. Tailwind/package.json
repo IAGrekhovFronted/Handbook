@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "tsx ./src/executable.ts"
+    },
+    "dependencies": {
+        "tsx": "^4.19.2"
+    },
+    "devDependencies": {
+        "tailwindcss": "^4.0.8"
+    }
+}
