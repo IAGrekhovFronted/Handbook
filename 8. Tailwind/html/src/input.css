@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@config "../tailwind.custom.config.js";
+@tailwind utilities;
 
 @theme {
   --color-mint-500: oklch(0.72 0.11 178);
