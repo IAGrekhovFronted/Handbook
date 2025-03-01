@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
+VOLUME [ "/data" ]
+
 CMD ["npm", "run", "start"]
