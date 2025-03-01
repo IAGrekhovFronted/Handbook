@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "tsx ./src/app/index.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.19.3"
+  }
+}
