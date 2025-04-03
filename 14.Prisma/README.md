@@ -3,7 +3,6 @@
 1. Установка:
    npm install prisma --save-dev
    npm install @prisma/client
-   npm install @apollo/server
 
 2. Инициализация:
    npx prisma init
@@ -25,6 +24,10 @@ npx prisma migrate reset
 npx prisma migrate dev --name add-id-to-artists-and-authors
 
 --name: имя миграции
+
+## Генерация PrismaClien - подтягивает модели
+
+npx prisma generate
 
 ## Базовые методы
 
