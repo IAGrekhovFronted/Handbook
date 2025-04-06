@@ -68,7 +68,7 @@ export class GraphqlService {
    @graphql-codegen/typescript-operations
    @graphql-codegen/typescript-document-nodes
 
-2. Создание кофига:
+2. Создание конфига:
 
 ```yml
 overwrite: true
@@ -79,7 +79,7 @@ generates:
     plugins:
       - "typescript"
       - "typescript-operations"
-      - "typescript-document-nodes" # Генерирует gql-объекты
+      - "typescript-document-nodes"
 ```
 
 3. Создание фрагментов .graphql
